@@ -358,6 +358,12 @@ export default function CreatShare(props) {
                                         <MenuItem value={100}>
                                             100 次下载
                                         </MenuItem>
+                                        <MenuItem value={1000}>
+                                            1千 次下载
+                                        </MenuItem>
+                                        <MenuItem value={10000}>
+                                            1万 次下载
+                                        </MenuItem>
                                     </Select>
                                 </FormControl>
                                 <Typography>或者</Typography>
@@ -383,6 +389,12 @@ export default function CreatShare(props) {
                                         </MenuItem>
                                         <MenuItem value={30 * 24 * 3600}>
                                             30 天
+                                        </MenuItem>
+                                        <MenuItem value={60 * 24 * 3600}>
+                                            60 天
+                                        </MenuItem>
+                                        <MenuItem value={90 * 24 * 3600}>
+                                            90 天
                                         </MenuItem>
                                     </Select>
                                 </FormControl>
