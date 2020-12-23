@@ -125,7 +125,7 @@ export default function CreatShare(props) {
     const [shareOption, setShareOption] = React.useState({
         password: false,
         expire: false,
-        preview: true
+        preview: false
     });
 
     const handleChange = prop => event => {
