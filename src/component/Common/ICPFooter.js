@@ -29,10 +29,10 @@ export const ICPFooter = () => {
         return <></>;
     }
     return (
-        <div className={classes.icp}>
+        <div  id="miit_beian" className={classes.icp}>
             {`备案号: `}
             <Link
-                href="http://www.beian.gov.cn/portal/registerSystemInfo"
+                href="https://beian.miit.gov.cn/"
                 rel="noopener noreferrer"
                 target="_blank"
             >
